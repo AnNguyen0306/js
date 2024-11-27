@@ -1,0 +1,126 @@
+body{
+    font-size: 50px;
+    margin: auto;
+    width:100%;
+}
+#nhietdo{
+    display: flex;
+    flex-direction: column;
+}
+#nhietdo label{
+    margin-right: 20px;
+    padding: 20px;
+    width: 400px;
+}
+#nhietdo div{
+    display: flex;
+
+}
+#nhietdo button{
+    padding:10px 20px;   
+    font-size: 1em;
+    margin-left: 600px;
+    width: 150px;
+}
+.do{
+    width: 600px;
+    padding: 20px;
+    font-size: 1em;
+    font-style: italic;
+}
+button{
+    font-size: 30px;
+    padding: 20px;
+    margin: 50px ;
+}
+.hcn{
+    display:flex;
+    flex-direction: column;
+    /* gap la khoang cach giua cac phan tu */
+    gap: 20px;
+    width: 100%;
+    margin: 50px;
+}
+.canh{
+    width: 600px;
+    padding: 10px;
+    font-size: 1em;
+    font-style: italic;
+}
+.hcn .lb{
+    margin-right: 20px;
+    padding: 20px;
+    width: 400px;
+}
+.hcn div{
+    display: flex;
+}
+#btn{
+    margin-left:600px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgb(6, 68, 175);
+    color:white;
+    border-radius: 10px;
+}
+
+#tamgiac div{
+    display: flex;
+    
+}
+#tamgiac .tg{
+    font-size: 1em;
+    width: 600px;
+    padding: 20px;
+}#tamgiac{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    gap: 20px;
+    width: 100%;
+}
+#tamgiac label{
+    margin-right: 20px;
+    padding: 20px;
+    width: 400px;
+}
+#butt{
+    margin-left:600px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgb(211, 12, 237);
+    color:white;
+    border-radius: 10px;
+}
+#hinhvuong{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    gap: 10px;
+    width: 100%;
+}
+#hinhvuong div{
+    display: flex;
+}
+#hinhvuong .hv{
+    font-size: 1em;
+    width:600px;
+    padding: 20px;
+}
+#hinhvuong label{
+    margin-right: 20px;
+    padding: 20px;
+    width: 400px;
+}
+#bton{
+    margin-left:600px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgb(73, 4, 116);
+    color:white;
+    border-radius: 10px;
+}
+p{
+    font-style: oblique;
+    margin-left: 500px;
+}
